@@ -56,11 +56,18 @@ body{
 .dropdown-menu{
     right: auto; 
     left: auto;
-    width: 125px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .navbar .nav-item .dropdown-menu .dropdown-item{
     color: black;
+    width: auto;
+}
+
+.navbar .nav-item .dropdown-menu .active{
+    background-color: rgb(158, 0, 0);
+    color: white;
 }
 
 .jumbotron{
