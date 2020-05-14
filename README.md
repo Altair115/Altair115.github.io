@@ -18,7 +18,7 @@
 
 
 
-### 主题特性
+### Theme features
 
 - 主题基于 `jekyll 3.8.1` 开发
 - 响应式布局
@@ -76,13 +76,13 @@
 
 
 
-> ​	通用修改 `_config.yml` 文件，你便可以轻松搭建属于你自己的个人博客。
+> ​	Configure the `_config.yml` File, so you can easily build your own personal blog.
 >
-> ​	一部分配置，默认已经是配置好的，你只需要修改下面列出的内容即可完成搭建。
+> ​	Part of the configuration is already configured by default. You only need to modify the contents listed below to complete the construction.
 
 
 
-#### 关于博客
+#### About blog
 
 ```yaml
 ---
@@ -94,21 +94,21 @@ url: 'https://abc.github.io' # your host
 ---
 ```
 
-`title` ：用于页面的 title 标签的显示内容
+`title` ：Used for the display content of the title tag of the page
 
-`description` ：网站的简介
+`description` ：Description of the page
 
-`keywords` ：网站的关键词
+`keywords` ：Keywords of the website
 
-`url` ：网站域名
+`url` ：Website domain name
 
 
 
-#### 写文章
+#### Write a Post
 
-​	博客通过解析 `markdown` 文件来部署文章页面的，所以用户写文章只需要写一篇markdown，并放置在站点根目录下的 `_post` 文件夹即可。具体的markdown语法自行上网搜索学习，或使用markdown编辑器进行写作。推荐一款 markdown编辑器：[typora](https://www.typora.io) 。支持 windows 、mac OSX 、Linux 。
+​The blog deploys the article page by parsing the `markdown` file, so users only need to write a markdown and place it in the` _post` folder in the root directory of the site. The specific markdown grammar can be searched and studied online by yourself, or use the markdown editor to write. Recommend a markdown editor: [typora] (https://www.typora.io). Support windows, mac OSX, Linux.
 
-关于文章 YAML头信息：
+About article YAML header information：
 
 ```yaml
 layout: post
