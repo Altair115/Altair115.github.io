@@ -1,154 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About me</title>
+---
+layout: default
+title: About
+page-title: aboutMe
+home-title: Show you about me.
+description:
+---
 
-    <link rel="icon" href="Images/Mythirial.png">
-    <link rel="stylesheet" type="text/css" href="Bootstrap 4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="Bootstrap 4/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-<div class="jumbotron text-center" style="margin-bottom:0">
-    <h1 class="display-1">Mythirial</h1>
-    <p>By K. Celinski</p> 
-</div>
-
-<nav class="navbar navbar-expand-md sticky-top">
-    <!-- Brand -->
-    <a class="navbar-brand disabled"><img src="Images/MythirialWhite.png" alt="Mythirial Logo" width="50" height="50"></a>
-
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="fa fa-navicon" style="color: white"></span>
-    </button>
-  
-    <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">Projects</a>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="memory.html">Memory</a>
-        </div>
-     </li> 
-      <li class="nav-item active">
-          <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
-              About
+{% include header.html %}
+{% include boot.html %}
+<main>
+    {% include title.html %}
+    <ul class="ex-list">
+        <li class="fadeInUp animated">
+        {% if site.author %}
+          <div class="portraits"><img src="{{ site.portraits }}" alt=""></div>
+          <span id="yourname">{{ site.name }}</span>
+          <span id="yourbio">{{ site.bio }}</span>
+          {% if site.about %}
+            <span id="aboutyou">{{ site.aboutyou }}</span>
+          {% endif %}
+        {% endif %}
+        {% if site.SNS %}
+          {% for sns-icon in site.SNS-icon %}
+            <a href="{{ sns-icon[1] }}" title="{{ sns-icon[0] }}">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-{{ sns-icon[0] }}"></use>
+              </svg>
             </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item active" href="about.html">About me</a>
-              <a class="dropdown-item" href="hobbys.html">Hobby's</a>
-              <a class="dropdown-item" href="Docs/CV K. Celinski.pdf">CV</a>
-        </div>
-       </li> 
+          {% endfor%}
+        {% endif %}
+      </li>
+      <li class="fadeInUp animated">
+      {% if site.tags.size>0 %}
+          {% for tag in site.tags %}
+          <a href="tags.html#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
+          {% endfor %}
+      {% endif %}
+      </li>
     </ul>
-  </div> 
-</nav>
-
-
-
-<div class="container-fluid">
-
-    <h1 class="p-2">Info about me:</h1>
-
-    <div class="d-flex">
-        <div class="d-flex flex-row">
-            <div class="p-2 flex-fill">
-                <div class="table-responsive">
-                <table class="table table-hover table-striped">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th>Personal info</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Name:</th>
-                            <td>Kevin Celinski</td>
-                        </tr>
-                        <tr>
-                            <th>Age:</th>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <th>Birthday:</th>
-                            <td>20/12/1997</td>
-                        </tr>
-                        <tr>
-                            <th>Birthplace:</th>
-                            <td>Franeker, The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <th>Previous education:</th>
-                            <td>VMBO TL<br> MBO 4 Gamedevelopment</td>
-                        </tr>
-                    </tbody>
-                </table>
-                </div>
-            </div>
-            <div class="p-2 flex-fill">
-                <div class="table-responsive">
-                <table class="table table-hover">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th>Programming language's</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>C#</th>
-                            <td><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><img src="Images/CSharp.png" alt="C# LOGO" width="50" height="50"></a></td>
-                        </tr>
-                        <tr>
-                            <th>C++</th>
-                            <td><a href="https://en.wikipedia.org/wiki/C%2B%2B"><img src="Images/C++.png" alt="C++ LOGO" width="50" height="50"></a></td>
-                        </tr>
-                        <tr>
-                            <th>HTML</th>
-                            <td><a href="https://en.wikipedia.org/wiki/HyperText_Markup_Language"><img src="Images/HTML5.png" alt="HTML LOGO" width="50" height="50"></a></td>
-                        </tr>
-                        <tr>
-                            <th>CSS</th>
-                            <td><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><img src="Images/CSS.png" alt="CSS LOGO" width="50" height="50"></a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <h1 class="p-2">Me in a few words:</h1>
-    <div class="d-flex flex-row">
-        <div class="p-2 flex-fill">
-          <H2>Who am I?</H2>
-          <p>I'm just your average person with no special skills or outlandish traits. <br> My motivation for this study is simply to pass and get a job. why so bland you're asking, I dont know myself.</p>
-          <p>I just like to create or think stuff up and make it. <br> I mostly read books and sometimes play games. <br> Recently started to play airsoft in the Netherlands</p>
-        </div>
-    </div>
-
-
-</div>
-
-
-
-<div class="footer">
-    <p>©2018 - K. Celinski</p>
-</div>
-</body>
-</html>
+</main>
+{% include footer.html %}

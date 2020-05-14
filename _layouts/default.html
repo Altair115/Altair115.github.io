@@ -1,0 +1,34 @@
+<!-- Home and other page layout-->
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Inlcude Head Tag -->
+{% include head.html %}
+</head>
+<body>
+<!-- Page body -->
+{{ content }}
+
+<!-- Reference wow.js animation effect-->
+<script src="/assets/js/wow.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        // offset: 5,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
+<!-- Page refresh back to top -->
+<script>
+    window.onbeforeunload = function(){
+        //The page will automatically return to the top after refreshing
+        document.documentElement.scrollTop = 0;  //ie下
+        document.body.scrollTop = 0;  //非ie
+    }
+</script>
+
+</body>
+</html>
