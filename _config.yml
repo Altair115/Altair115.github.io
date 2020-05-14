@@ -5,17 +5,17 @@ keywords: 'your web keywords, another keywords'
 url: 'https://altair115.github.io' # your host
 
 # nav ：&emsp;
-nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+nav: # The best experience is six labels, and each label should not exceed 4 Chinese characters
+  Home: '/'
+  Tags: '/tags.html'
+  Timeline: '/timeline.html'
+  About: '/about.html'
+  Contact: '/friendLink.html'
 
 # Blogger/Author of blog
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
+name: 'K. Celinski'
+NickName: 'Altair115'
 webtitle: 'your awesome webtitle'
 bio: 'your awesome bio'
 about: true
