@@ -16,16 +16,16 @@ nav: # The best experience is six labels, and each label should not exceed 4 Chi
 author: true
 name: 'K. Celinski'
 NickName: 'Altair115'
-webtitle: 'your awesome webtitle'
+webtitle: 'Alt's Blog'
 bio: 'your awesome bio'
 about: true
-aboutyou: 'your introduction'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+aboutyou: 'Motivated Student who aspires to become a Software engineer. Fluent in Dutch and English also studying Japanese. Skilled in Design and Programming languages.'
+portraits: '/assets/P4 Yu.jpg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
+  mail: 'mailto:kevin.celinski@outlook.com'
   weixin: '' # Address where your WeChat QR code is stored
   qq: '' # Your qq QR code storage address or http://wpa.qq.com/msgrd?v=3&uin='your QQ number '& site = qq & menu = yes
   github: ''
@@ -66,7 +66,7 @@ friends:
 disqus: false
 disqus_url: '' # https://abc.disqus.com/embed.js
 # 来必力评论
-livere: true
+livere: false
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
 Gitment: false
