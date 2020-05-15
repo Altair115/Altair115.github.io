@@ -16,10 +16,10 @@ nav: # The best experience is six labels, and each label should not exceed 4 Chi
 author: true
 name: 'K. Celinski'
 NickName: 'Altair115'
-webtitle: 'Altairs Portfolio & Blog'
-bio: 'your awesome bio'
+webtitle: 'Altairs Blog'
+bio: 'Motivated Student who aspires to become a Software engineer.'
 about: true
-aboutyou: 'Motivated Student who aspires to become a Software engineer. Fluent in Dutch and English also studying Japanese. Skilled in Design and Programming languages.'
+aboutyou: 'Fluent in Dutch and English also studying Japanese. Skilled in Design and Programming languages.'
 portraits: '/assets/P4 Yu.jpg' # your portraits image file path
 
 # SNS
