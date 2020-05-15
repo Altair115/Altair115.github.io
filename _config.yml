@@ -10,7 +10,7 @@ nav: # The best experience is six labels, and each label should not exceed 4 Chi
   Tags: '/tags.html'
   Timeline: '/timeline.html'
   About: '/about.html'
-  Contact: '/friendLink.html'
+  Confidants: '/friendLink.html'
 
 # Blogger/Author of blog
 author: true
@@ -47,7 +47,7 @@ pygmentsTheme: 'default'
 
 # Your Friends
 friends:
-  jekyll: 'https://jekyllrb.com'
+  kyranio: 'http://kyran.io'
 
 # Comment Best experience Choose between disqus, livere and Gitment
 # disqus 评论
