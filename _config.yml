@@ -24,21 +24,9 @@ portraits: '/assets/P4 Yu.jpg' # your portraits image file path
 
 # SNS
 SNS: true
-SNS-icon: #['github']
+SNS-icon: #['mail','github','weixin','qq','Codepen','weibo','instagram','Twitter','Dribbble','Facebook','Google','zhihu','juejin','twitch']
   mail: 'mailto:kevin.celinski@outlook.com'
-  weixin: '' # Address where your WeChat QR code is stored
-  qq: '' # Your qq QR code storage address or http://wpa.qq.com/msgrd?v=3&uin='your QQ number '& site = qq & menu = yes
   github: 'https://github.com/Altair115'
-  Codepen: ''
-  weibo: ''
-  instagram: ''
-  Twitter: ''
-  Dribbble: ''
-  Facebook: ''
-  Google: ''
-  zhihu: ''
-  juejin: ''
-  twitch: ''
 
 # Pagination
 paginate: 2
@@ -57,7 +45,7 @@ highlighter: rouge
 # Code highlighting theme using pygments theme: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango Choose any theme name you like and fill it in single quotes below
 pygmentsTheme: 'default'
 
-# 友情链接
+# Your Friends
 friends:
   jekyll: 'https://jekyllrb.com'
 
