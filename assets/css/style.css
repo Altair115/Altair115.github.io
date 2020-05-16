@@ -9,7 +9,7 @@ html{
     background-image: url(/assets/patternSVGWhite.svg);
     /*background-size: 100%;*/
     background-size: 200px 200px;
-    background-color: black;
+    background-color: #292929;
     box-shadow: inset 0px 0px 150px 60px rgba(0,0,0,0.8);
     background-position: center;
     font-family: Ubuntu;
