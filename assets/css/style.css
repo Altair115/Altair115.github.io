@@ -64,7 +64,7 @@ a{
   /*display: block;*/
 }
 .top-nav li a:hover{
-  color: rgb(128, 0, 0);
+  color: rgb(155, 0, 0);
 }
 #top-boot{
   display: none;
@@ -312,13 +312,14 @@ a{
           transition-duration: .5s;
 }
 
-
+/*footer*/
 #bottom{
   height: 75px;
   width: 100%;
   border-top: 1px solid #e7eaf1;
   margin-top: 30px;
   text-align: center;
+  background-color: black;
   color: white;
   font-size: 13px;
 }
