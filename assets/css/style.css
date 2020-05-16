@@ -319,6 +319,7 @@ a{
 #bottom{
   position: -webkit-sticky;
   position: sticky;
+  bottom: 0;
   height: 75px;
   width: 100%;
   border-top: 1px solid #e7eaf1;
