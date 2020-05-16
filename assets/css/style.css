@@ -2,6 +2,9 @@ html,body,ul,li,div,header,nav,main,footer{
     margin: 0;
     padding: 0;
 }
+html,body{
+  height: 100%;
+}
 html{
     background-image: url(/assets/patternSVGWhite.svg);
     /*background-size: 100%;*/
