@@ -4,8 +4,10 @@ html,body,ul,li,div,header,nav,main,footer{
 }
 html{
     background-image: url(/assets/patternSVGWhite.svg);
+    opacity: 0.2;
+    filter: alpha(opacity=20);
     /*background-size: 100%;*/
-    background-size: 150px 150px;
+    background-size: 200px 200px;
     background-color: black;
     background-position: center;
     /*background-color: white;*/
