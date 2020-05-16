@@ -4,7 +4,7 @@ title:  "Welcome to my place"
 date:   2020-05-15 21:25:00 +0200
 tags: Mythirial update
 color: rgb(255,90,90)
-cover: '../assets/MythirialWallpaper'
+cover: '../assets/MythirialWallpaper.jpg'
 subtitle: 'Welcome to my place'
 ---
 Welcome to my cozy little development blog.
