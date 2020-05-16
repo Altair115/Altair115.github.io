@@ -3,9 +3,10 @@ html,body,ul,li,div,header,nav,main,footer{
     padding: 0;
 }
 html{
-    background-image: url(/assets/patternSVG.svg);
+    background-image: url(/assets/patternSVGWhite.svg);
     /*background-size: 100%;*/
     background-size: 100px 100px;
+    background-color: black;
     background-position: center;
     /*background-color: white;*/
     font-family: Ubuntu;
