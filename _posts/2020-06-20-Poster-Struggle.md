@@ -4,7 +4,7 @@ title:  "Struggles for a Poster"
 date:   2020-06-20 15:25:00 +0100
 tags: School Update
 color: rgb(255,90,90)
-cover: '../assets/uwuBot.png'
+cover: '../assets/Images/uwuBot.png'
 subtitle: 'The journey to the perfect poster'
 ---
 It has been a while since I last posted but there is a perfect reason why. 
