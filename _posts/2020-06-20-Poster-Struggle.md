@@ -19,7 +19,7 @@ the first draft I made by hand in my notebook while it doesn't look like anythin
 ![Poster first Draft](/assets/Images/UwuBotDraft.jpg)
 
 after that, some time was taken to redraw and design the next version digitally.
-![Poster second design](/assets/Images/uwuBotColored.png)
+![Poster second design](/assets/Images/uwuBotColor.png)
 
 while this looked fine for the standard specifications, I found it lacked a bit more color. 
 So I went back to the drawing board again. 
@@ -29,6 +29,8 @@ This resulted in the final version which was handed in.
 
 But the personal favorite among the group is this one.
 ![Poster Personal favorite](/assets/Images/uwuBot.png)
+
+that's it for now.
 
 As always.
 
