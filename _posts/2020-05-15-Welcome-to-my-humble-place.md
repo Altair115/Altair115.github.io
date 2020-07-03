@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to my place"
 date:   2020-05-15 21:25:00 +0200
-tags: Mythirial update
+tags: Mythirial Update
 color: rgb(255,90,90)
 cover: '../assets/MythirialWallpaper.jpg'
 subtitle: 'Welcome to my place'
