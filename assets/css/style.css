@@ -23,7 +23,7 @@ html{
   background-size: 200px 200px;
   background-color: #292929;
   background-position: center;
-  box-shadow: inset 0px 0px 150px 60px rgba(0,0,0,0.8);
+  /*box-shadow: inset 0px 0px 150px 60px rgba(0,0,0,0.8);*/
   font-family: Ubuntu;
 }
 main{
