@@ -16,19 +16,19 @@ I have two tasks.
 2. Draw/Make a good-looking poster
 
 the first draft I made by hand in my notebook while it doesn't look like anything. It was a rough draft of the first idea that popped in my head.
-![Poster first Draft](../assets/UwuBotDraft.jpg)
+![Poster first Draft](/assets/Images/UwuBotDraft.jpg)
 
 after that, some time was taken to redraw and design the next version digitally.
-![Poster second design](../assets/UWU Bot.png)
+![Poster second design](/assets/Images/uwuBotColored.png)
 
 while this looked fine for the standard specifications, I found it lacked a bit more color. 
 So I went back to the drawing board again. 
 
 This resulted in the final version which was handed in.
-![Poster final Draft](../assets/uwuBot final.png)
+![Poster final Draft](/assets/Images/uwuBotFinal.png)
 
 But the personal favorite among the group is this one.
-![Poster Personal favorite](../assets/uwuBot.png)
+![Poster Personal favorite](/assets/Images/uwuBot.png)
 
 As always.
 
