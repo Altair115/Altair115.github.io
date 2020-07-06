@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Analyze Audio"
+title:  "How to Analyze Audio"
 date:   2020-06-22 15:25:00 +0100
 tags: School Update
 color: rgb(255,90,90)
