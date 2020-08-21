@@ -14,7 +14,7 @@ In this post I'm going to explain and/or reveal what one of those projects is.
 
 ----
 
-#about Project Kenjutsu  
+# about Project Kenjutsu  
 A couple of days before the summer vacation started I watched a video on youtube, about someone who was making a VR game as part of being challanged by some commenter.
 Ill leave a link at the end of the post if you're interested.
 To give you a quick summary he made a quirky little vr game.
@@ -43,6 +43,6 @@ Altair.
 
 ----
 
-#links  
+# links  
 - [Video VR Gamedevelopment](https://youtu.be/nR9UfOueJPU)
 - [Bamboo Cutting](https://www.youtube.com/watch?v=ndVmUfeHoaA)
